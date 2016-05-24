@@ -1,0 +1,410 @@
+.o-spend-indicator {
+    font-weight: bold
+}
+
+.o-spend-indicator .o-spend-icon {
+    height: 16px;
+    width: 27px;
+    padding-top: 3px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.o-spend-indicator .o-spend-icon.o-high-mid-spend, .o-spend-indicator .o-spend-icon.o-low-mid-spend, .o-spend-indicator .o-spend-icon.o-new-spend-verify-in-progress, .o-spend-indicator .o-spend-icon.o-new-spend-verify-not-started, .o-spend-indicator .o-spend-icon.o-no-spend-not-verified, .o-spend-indicator .o-spend-icon.o-no-spend, .o-spend-indicator .o-spend-icon.o-top-spend {
+    background: url(../bundles/odeskjobsearchutils/img/indicators-icons.png) no-repeat;
+    background-repeat: no-repeat
+}
+
+.o-spend-indicator .o-spend-icon.o-high-mid-spend {
+    background-position: 0 0
+}
+
+.o-spend-indicator .o-spend-icon.o-low-mid-spend {
+    background-position: 0 -16px
+}
+
+.o-spend-indicator .o-spend-icon.o-new-spend-verify-in-progress {
+    background-position: 0 -32px
+}
+
+.o-spend-indicator .o-spend-icon.o-new-spend-verify-not-started {
+    background-position: 0 -48px
+}
+
+.o-spend-indicator .o-spend-icon.o-no-spend-not-verified {
+    background-position: 0 -64px
+}
+
+.o-spend-indicator .o-spend-icon.o-no-spend {
+    background-position: 0 -80px
+}
+
+.o-spend-indicator .o-spend-icon.o-top-spend {
+    background-position: 0 -96px
+}
+
+#search-box-el {
+    width: 580px
+}
+
+#search-box-el:focus, #search-box-el:hover {
+    width: 579px
+}
+
+.tokenizer-wrapper {
+    font-weight: normal;
+    border: 2px solid #e0e0e0;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.tokenizer-wrapper:hover, .tokenizer-wrapper:focus, .tokenizer-wrapper.active {
+    padding: 9px
+}
+
+.hover > .hover-show {
+    display: none
+}
+
+.hover:hover > .hover-show {
+    display: inherit
+}
+
+.jobs-list article {
+    padding-bottom: 18px;
+    border-bottom: 1px solid #eee
+}
+
+.jobs-list article:first-child {
+    border-top: 1px solid #eee;
+    margin-top: 18px
+}
+
+.jobs-list article:last-child {
+    margin-bottom: 18px
+}
+
+.o-tag-skill {
+    font-weight: normal;
+    margin-bottom: 0
+}
+
+.o-tag-skill:hover, .o-tag-skill:focus, .o-tag-skill:active {
+    text-decoration: none
+}
+
+.o-tag-skill, .show-all, .show-only {
+    cursor: pointer
+}
+
+.job-tile .description {
+    margin-bottom: 13px;
+    word-wrap: break-word
+}
+
+.o-icon-rss {
+    background-size: 16px !important
+}
+
+.filter:not(:last-child) {
+    border-bottom: 1px solid #eee
+}
+
+.air-card {
+    margin: 40px 0
+}
+
+.filter .checkbox label, .filter .radio label {
+    font-size: 13px;
+    display: inline
+}
+
+.filter .checkbox label:hover, .filter .radio label:hover {
+    background-color: inherit;
+    box-shadow: none
+}
+
+.filter .hover {
+    width: 240px
+}
+
+.job-ptc-filter .hover {
+    width: 220px
+}
+
+.filter li.active a {
+    color: #008329
+}
+
+.filter li.active a:hover {
+    color: #37a000
+}
+
+#category, #subcategory, #job-type {
+    padding-left: 13px
+}
+
+.filter li.active span.active-icon {
+    display: inline-block;
+    width: 8px;
+    border: 1px solid #008329;
+    height: 8px;
+    border-radius: 100%;
+    margin-left: -12px
+}
+
+.slider {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative
+}
+
+.slider.slider-horizontal {
+    width: 95%;
+    height: 18px
+}
+
+.slider.slider-horizontal .slider-track {
+    height: 10px;
+    width: 100%;
+    margin-top: -4px;
+    top: 50%;
+    left: 0
+}
+
+.slider.slider-horizontal .slider-selection {
+    height: 100%;
+    top: 0;
+    bottom: 0
+}
+
+.slider.slider-horizontal .slider-handle {
+    margin-left: -10px;
+    margin-top: -3px
+}
+
+.slider.slider-horizontal .slider-handle.triangle {
+    border-width: 0 10px 10px 10px;
+    width: 0;
+    height: 0;
+    border-bottom-color: #b2b2b2;
+    margin-top: 0
+}
+
+.slider.slider-vertical {
+    height: 210px;
+    width: 20px
+}
+
+.slider.slider-vertical .slider-track {
+    width: 10px;
+    height: 100%;
+    margin-left: -5px;
+    left: 50%;
+    top: 0
+}
+
+.slider.slider-vertical .slider-selection {
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0
+}
+
+.slider.slider-vertical .slider-handle {
+    margin-left: -5px;
+    margin-top: -10px
+}
+
+.slider.slider-vertical .slider-handle.triangle {
+    border-width: 10px 0 10px 10px;
+    width: 1px;
+    height: 1px;
+    border-left-color: #b2b2b2;
+    margin-left: 0
+}
+
+.slider input {
+    display: none
+}
+
+.slider .tooltip-inner {
+    white-space: nowrap
+}
+
+.slider-track {
+    position: absolute;
+    cursor: pointer;
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #b2b2b2
+}
+
+.slider-selection {
+    position: absolute;
+    background-color: #37a000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+.slider-handle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #b2b2b2;
+    border: 0 solid transparent
+}
+
+.slider-handle.round {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+.slider-handle.hidden {
+    display: none
+}
+
+.categories-filter .dropdown-toggle.btn {
+    min-width: 215px;
+    max-width: 215px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.categories-filter .dropdown-menu {
+    max-height: inherit
+}
+
+.sorting-filter label {
+    vertical-align: bottom
+}
+
+.job-count-rss {
+    line-height: 42px
+}
+
+.eo-block-wrapper .eo-blocker.eo-block-default .eo-block-message {
+    position: fixed
+}
+
+.eo-blocker {
+    z-index: 999999
+}
+
+.downloadTeamAppInJobSearchButton {
+    margin: 20px 0 0 0;
+    padding: 14px 15px
+}
+
+.downloadTeamAppInJobSearch:before {
+    content: "\e63b";
+    margin-left: -50px
+}
+
+.jobFeedbackIconLink, .jobFeedbackIconLink:active, .jobFeedbackIconLink:hover, .jobFeedbackIconLink:focus {
+    text-transform: none !important;
+    text-decoration: none !important;
+    position: inherit !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important
+}
+
+.jobFeedbackIcon {
+    font-size: 16px
+}
+
+.jobFeedbackDropdown {
+    border-top: 2px solid #e0e0e0;
+    max-height: inherit !important
+}
+
+.jobFeedbackExists {
+    font-weight: bold
+}
+
+.jobLikeButton, .jobLikeButton:hover, .jobLikeButton:active, .jobLikeButton:focus, .jobLikeButton.active {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 24px !important;
+    margin-bottom: 0 !important;
+    border: 0;
+    padding: 0;
+    width: 0;
+    outline-offset: -10px !important;
+    outline: none !important;
+    padding-right: 20px !important;
+    padding-left: 5px !important
+}
+
+.jobFeedback {
+    margin-top: 20px !important
+}
+
+.jobFeedbackReasonText {
+    padding: 10px
+}
+
+.pagination > li > a:focus, .pagination > li > span:focus {
+    color: #494949;
+    background-color: #fff;
+    border: 2px solid #e0e0e0;
+    outline: 0
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover {
+    border-color: #008329;
+    color: #008329;
+    background-color: #fff
+}
+
+.highlight {
+    background-color: #fafad2
+}
+
+.o-tag-skill:hover .highlight, .o-tag-skill:focus .highlight {
+    background-color: inherit
+}
+
+div.stars {
+    width: 30%;
+    display: inline-block;
+}
+
+input.star { display: none; }
+
+label.star {
+    float: right;
+    padding: 10px;
+    font-size: 36px;
+    color: #444;
+    transition: all .2s;
+}
+
+input.star:checked ~ label.star:before {
+    content: '\e67d';
+    color: #FD4;
+    transition: all .25s;
+}
+
+input.star-5:checked ~ label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+}
+
+input.star-1:checked ~ label.star:before { color: #F62; }
+
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+
+label.star:before {
+    content: '\e67e';
+    font-family: "Air icons 60";
+}
